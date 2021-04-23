@@ -7,11 +7,6 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-
-import com.bumptech.glide.Glide;
-
-import java.security.Principal;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,13 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
         botonAcceder = (Button) findViewById(R.id.botonacceder);
 
-        ImageView imageView = (ImageView) findViewById(R.id.imageView);
-        Glide.with(this).asGif().load(R.raw.image_gif).into(imageView);
-
         botonAcceder.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Principal.class);
-                setContentView(R.layout.principal);
+                Intent intent = new Intent(MainActivity.this,Principal.class);
+                setContentView(R.layout.activity_principal);
                 startActivity(intent);
                 finish();
             }
