@@ -9,20 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity
-            android:name=".Ejercicio10">
+        <activity android:name=".Multiplicaciones"></activity>
+        <activity android:name=".Angulos" />
+        <activity android:name=".Ejercicio10">
             android:screenOrientation="landscape"
         </activity>
         <activity
             android:name=".Ejercicio5"
-            android:screenOrientation="landscape">
-        </activity>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".PopUp_Correcto"
-            android:screenOrientation="landscape">
-
-            <!-- -android:theme="@style/AppTheme.Temapopup"> -->
-        </activity>
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Matelingo.Temapopup" />
         <activity
             android:name=".Ejercicio1"
             android:screenOrientation="landscape" />

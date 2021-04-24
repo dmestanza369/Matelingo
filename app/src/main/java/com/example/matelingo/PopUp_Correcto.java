@@ -20,6 +20,6 @@ public class PopUp_Correcto extends AppCompatActivity {
         int ancho = medidasVentana.widthPixels;
         int alto = medidasVentana.heightPixels;
 
-        getWindow().setLayout((int)(alto), (int)(ancho * 0.2));
+        getWindow().setLayout((int)(alto), (int)(ancho * 0.5));
     }
 }

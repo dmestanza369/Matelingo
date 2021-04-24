@@ -9,31 +9,30 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class Ejercicio1 extends AppCompatActivity {
+public class Angulos extends AppCompatActivity {
 
     ImageView botonAtras;
-    Button respuestaCorrecta;
+    Button botonEjer1;
+    Button botonEjer5;
+    Button botonEjer10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ejercicio1);
+        setContentView(R.layout.activity_angulos);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
         botonAtras = (ImageView) findViewById(R.id.botonatras);
-        respuestaCorrecta =  (Button) findViewById(R.id.respuestacorrecta);
+        botonEjer1 = (Button) findViewById(R.id.botonejer1);
+        botonEjer5 = (Button) findViewById(R.id.botonejer5);
+        botonEjer10 = (Button) findViewById(R.id.botonejer10);
 
         botonAtras.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
-                startActivity(new Intent(Ejercicio1.this,Sumas.class));
+                startActivity(new Intent(Angulos.this,Tercero.class));
             }
         });
 
-        respuestaCorrecta.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v){
-                startActivity(new Intent(Ejercicio1.this,PopUp_Correcto.class));
-            }
-        });
     }
 }

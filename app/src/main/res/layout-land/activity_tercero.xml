@@ -11,7 +11,7 @@
         android:id="@+id/button11"
         android:layout_width="226dp"
         android:layout_height="98dp"
-        android:backgroundTint="#ffcc99"
+        android:backgroundTint="#8C8B8A"
         android:text="Divisiones"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,7 +25,7 @@
         android:id="@+id/button9"
         android:layout_width="226dp"
         android:layout_height="98dp"
-        android:backgroundTint="#ffcc99"
+        android:backgroundTint="#8C8B8A"
         android:text="Medidas de longitud"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.727" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/botonangulos"
         android:layout_width="226dp"
         android:layout_height="98dp"
         android:backgroundTint="#ffcc99"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.727" />
 
     <Button
-        android:id="@+id/buttontercero2"
+        android:id="@+id/botonmultiplicaciones"
         android:layout_width="226dp"
         android:layout_height="98dp"
         android:backgroundTint="#ffcc99"
@@ -67,7 +67,7 @@
         android:id="@+id/button8"
         android:layout_width="226dp"
         android:layout_height="98dp"
-        android:backgroundTint="#ffcc99"
+        android:backgroundTint="#8C8B8A"
         android:text="Restas"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
