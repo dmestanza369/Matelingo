@@ -34,5 +34,32 @@ public class Angulos extends AppCompatActivity {
             }
         });
 
+        botonEjer1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Angulos.this,Ejer1Angulos.class);
+                setContentView(R.layout.activity_ejer1_angulos);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        botonEjer5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Angulos.this,Ejer5Angulos.class);
+                setContentView(R.layout.activity_ejer5_angulos);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        botonEjer10.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Angulos.this,Ejer10Angulos.class);
+                setContentView(R.layout.activity_ejer10_angulos);
+                startActivity(intent);
+                finish();
+            }
+        });
+
     }
 }

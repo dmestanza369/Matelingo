@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Multiplicaciones"></activity>
+        <activity android:name=".Ejer10Angulos"></activity>
+        <activity android:name=".Ejer5Angulos" />
+        <activity android:name=".Ejer1Angulos" />
+        <activity android:name=".Multiplicaciones" />
         <activity android:name=".Angulos" />
         <activity android:name=".Ejercicio10">
             android:screenOrientation="landscape"

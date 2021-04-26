@@ -8,7 +8,7 @@
     tools:context=".Angulos">
 
     <ImageView
-        android:id="@+id/botonayuda4"
+        android:id="@+id/botonayuda"
         android:layout_width="118dp"
         android:layout_height="112dp"
         android:layout_marginStart="130dp"
@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/ayuda" />
 
     <ImageView
-        android:id="@+id/botonajustes4"
+        android:id="@+id/botonajustes"
         android:layout_width="118dp"
         android:layout_height="112dp"
         android:layout_marginEnd="76dp"
