@@ -8,7 +8,7 @@
     tools:context=".Ejercicio10">
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/fallo3"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:backgroundTint="#ffcc99"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.873" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/fallo1"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:backgroundTint="#ffcc99"
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.731" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/respuestacorrecta"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:backgroundTint="#ffcc99"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.596" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/fallo2"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:backgroundTint="#ffcc99"

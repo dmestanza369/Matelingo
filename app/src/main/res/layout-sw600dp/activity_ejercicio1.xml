@@ -8,7 +8,7 @@
     tools:context=".Ejercicio1">
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/fallo1"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:backgroundTint="#ffcc99"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.849" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/fallo2"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:backgroundTint="#ffcc99"
@@ -124,7 +124,7 @@
         app:layout_constraintVertical_bias="0.017" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/fallo3"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:backgroundTint="#ffcc99"
@@ -136,4 +136,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:layout_constraintVertical_bias="0.113" />
+
+    <ToggleButton
+        android:id="@+id/musica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="musica"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,12 +9,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Ejer10Angulos"></activity>
-        <activity android:name=".Ejer5Angulos" />
-        <activity android:name=".Ejer1Angulos" />
-        <activity android:name=".Multiplicaciones" />
-        <activity android:name=".Angulos" />
-        <activity android:name=".Ejercicio10">
+        <activity
+            android:name=".PopUp_Incorrecto"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Matelingo.Temapopup">
+        </activity>
+        <activity
+            android:name=".Ejer10Mult"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Ejer5Mult"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Ejer1Mult"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Ejer10Angulos"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Ejer5Angulos"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Ejer1Angulos"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Multiplicaciones"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Angulos"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Ejercicio10">
             android:screenOrientation="landscape"
         </activity>
         <activity

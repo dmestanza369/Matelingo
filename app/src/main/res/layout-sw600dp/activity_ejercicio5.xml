@@ -8,7 +8,7 @@
     tools:context=".Ejercicio5">
 
     <Button
-        android:id="@+id/button32"
+        android:id="@+id/respuestacorrecta"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:layout_marginTop="24dp"
@@ -18,11 +18,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button31"
+        app:layout_constraintTop_toBottomOf="@+id/fallo1"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button31"
+        android:id="@+id/fallo1"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:layout_marginTop="16dp"
@@ -32,10 +32,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button28" />
+        app:layout_constraintTop_toBottomOf="@+id/fallo2" />
 
     <Button
-        android:id="@+id/button28"
+        android:id="@+id/fallo2"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:layout_marginTop="16dp"
@@ -45,10 +45,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button27" />
+        app:layout_constraintTop_toBottomOf="@+id/fallo3" />
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/fallo3"
         android:layout_width="892dp"
         android:layout_height="78dp"
         android:backgroundTint="#ffcc99"

@@ -33,5 +33,32 @@ public class Multiplicaciones extends AppCompatActivity {
                 startActivity(new Intent(Multiplicaciones.this,Tercero.class));
             }
         });
+
+        botonEjer1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Multiplicaciones.this,Ejer1Mult.class);
+                setContentView(R.layout.activity_ejer1_mult);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        botonEjer5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Multiplicaciones.this,Ejer5Mult.class);
+                setContentView(R.layout.activity_ejer5_mult);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        botonEjer10.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Multiplicaciones.this,Ejer10Mult.class);
+                setContentView(R.layout.activity_ejer10_mult);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

@@ -8,32 +8,60 @@
     tools:context=".Ejer10Angulos">
 
     <Button
-        android:id="@+id/button21"
-        android:layout_width="892dp"
-        android:layout_height="78dp"
-        android:layout_marginBottom="68dp"
+        android:id="@+id/fallo1"
+        android:layout_width="431dp"
+        android:layout_height="85dp"
         android:backgroundTint="#ffcc99"
-        android:text="Obtusos"
+        android:text="simples"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
 
     <Button
-        android:id="@+id/button20"
-        android:layout_width="892dp"
-        android:layout_height="78dp"
-        android:layout_marginBottom="28dp"
+        android:id="@+id/respuestacorrecta"
+        android:layout_width="431dp"
+        android:layout_height="85dp"
         android:backgroundTint="#ffcc99"
-        android:text="Agudos"
+        android:text="agudos"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/button21"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749" />
+
+    <Button
+        android:id="@+id/fallo2"
+        android:layout_width="431dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#ffcc99"
+        android:text="rectos"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <Button
+        android:id="@+id/fallo3"
+        android:layout_width="431dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#ffcc99"
+        android:text="obtusos"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
 
     <TextView
         android:id="@+id/textView26"
@@ -96,10 +124,13 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="218dp"
-        android:layout_height="203dp"
+        android:layout_width="345dp"
+        android:layout_height="295dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.32"
         app:srcCompat="@drawable/ejer3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

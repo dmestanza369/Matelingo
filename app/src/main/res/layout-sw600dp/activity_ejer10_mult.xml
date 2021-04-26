@@ -5,56 +5,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#bfedff"
-    tools:context=".Ejer1Angulos">
+    tools:context=".Ejer10Mult">
 
     <Button
         android:id="@+id/fallo1"
         android:layout_width="431dp"
         android:layout_height="85dp"
         android:backgroundTint="#ffcc99"
-        android:text="obtuso"
+        android:text="azul"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="0.925" />
 
     <Button
         android:id="@+id/fallo2"
         android:layout_width="431dp"
         android:layout_height="85dp"
         android:backgroundTint="#ffcc99"
-        android:text="grave"
+        android:text="amarillo"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749" />
+        app:layout_constraintVertical_bias="0.763" />
 
     <Button
         android:id="@+id/respuestacorrecta"
         android:layout_width="431dp"
         android:layout_height="85dp"
         android:backgroundTint="#ffcc99"
-        android:text="agudo"
+        android:text="verde"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.602" />
 
     <Button
         android:id="@+id/fallo3"
         android:layout_width="431dp"
         android:layout_height="85dp"
         android:backgroundTint="#ffcc99"
-        android:text="recto"
+        android:text="Rojo"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,36 +64,36 @@
         app:layout_constraintVertical_bias="0.44" />
 
     <TextView
-        android:id="@+id/textView22"
-        android:layout_width="654dp"
-        android:layout_height="86dp"
+        android:id="@+id/textView34"
+        android:layout_width="597dp"
+        android:layout_height="93dp"
         android:fontFamily="sans-serif-medium"
-        android:text="¿Qué ángulo es este?"
+        android:text="¿Quién es el impostor?"
         android:textAlignment="center"
         android:textColor="#333131"
         android:textSize="56sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/textView33"
         android:layout_width="467dp"
         android:layout_height="82dp"
         android:fontFamily="casual"
-        android:text="Pregunta 1"
+        android:text="Pregunta 10"
         android:textAlignment="center"
         android:textSize="56sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.074" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <ImageView
         android:id="@+id/botonayuda"
@@ -123,15 +123,14 @@
         app:srcCompat="@drawable/atras" />
 
     <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="377dp"
-        android:layout_height="312dp"
-        android:layout_marginTop="40dp"
+        android:id="@+id/imageView12"
+        android:layout_width="608dp"
+        android:layout_height="388dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22"
-        app:layout_constraintVertical_bias="0.312"
-        app:srcCompat="@drawable/ejer1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        app:layout_constraintVertical_bias="0.378"
+        app:srcCompat="@drawable/amongus" />
 </androidx.constraintlayout.widget.ConstraintLayout>
