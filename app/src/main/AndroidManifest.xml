@@ -9,37 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".PopUp"></activity>
+        <activity android:name=".Error" />
+        <activity android:name=".Ajustes2" />
         <activity
             android:name=".PopUp_Incorrecto"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.Matelingo.Temapopup">
-        </activity>
+            android:theme="@style/Theme.Matelingo.Temapopup" />
         <activity
             android:name=".Ejer10Mult"
             android:screenOrientation="landscape" />
         <activity
             android:name=".Ejer5Mult"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Ejer1Mult"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Ejer10Angulos"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Ejer5Angulos"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Ejer1Angulos"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Multiplicaciones"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Angulos"
-            android:screenOrientation="landscape"/>
-        <activity
-            android:name=".Ejercicio10">
+            android:screenOrientation="landscape" />
+        <activity android:name=".Ejercicio10">
             android:screenOrientation="landscape"
         </activity>
         <activity

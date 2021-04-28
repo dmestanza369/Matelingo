@@ -107,6 +107,7 @@
         android:layout_height="112dp"
         android:layout_marginStart="642dp"
         android:layout_marginEnd="140dp"
+        android:background="#8C8B8A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.347"

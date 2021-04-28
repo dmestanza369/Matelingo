@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcc99"
+    tools:context=".Error">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="461dp"
+        android:layout_height="108dp"
+        android:layout_marginBottom="104dp"
+        android:backgroundTint="#bfedff"
+        android:text="Volver a la página principal"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonatras"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="299dp"
+        android:layout_height="293dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783"
+        app:srcCompat="@drawable/perreti" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="647dp"
+        android:layout_height="491dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginEnd="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toEndOf="@+id/botonatras"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/bocadillo" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="407dp"
+        android:layout_height="178dp"
+        android:fontFamily="casual"
+        android:text="No te preocupes, enseguida solucionamos los problemas, ¡guau!"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView21"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="666dp"
+        android:layout_height="80dp"
+        android:fontFamily="casual"
+        android:text="Ha ocurrido algún error..."
+        android:textAlignment="center"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="432dp"
+        android:layout_height="70dp"
+        android:fontFamily="casual"
+        android:text="Si no se soluciona, puedes:"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="517dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
