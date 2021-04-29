@@ -12,6 +12,7 @@ import android.widget.ImageView;
 public class Principal extends AppCompatActivity {
 
     Button botonTercero;
+    Button botonSegundo;
     ImageView botonAtras;
     ImageView botonAyuda;
     ImageView botonAjustes;
@@ -24,6 +25,7 @@ public class Principal extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
         botonTercero = (Button) findViewById(R.id.botontercero);
+        botonSegundo = (Button) findViewById(R.id.segundo);
         botonAtras = (ImageView) findViewById(R.id.botonatras);
         botonAyuda = (ImageView) findViewById(R.id.botonayuda);
         botonAjustes = (ImageView) findViewById(R.id.botonajustes);
@@ -32,6 +34,15 @@ public class Principal extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Principal.this,Tercero.class);
                 setContentView(R.layout.activity_tercero);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        botonSegundo.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Principal.this,Error.class);
+                setContentView(R.layout.activity_error);
                 startActivity(intent);
                 finish();
             }

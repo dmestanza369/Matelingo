@@ -131,7 +131,7 @@
         app:layout_constraintVertical_bias="0.445" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/segundo"
         android:layout_width="226dp"
         android:layout_height="98dp"
         android:backgroundTint="#8C8B8A"

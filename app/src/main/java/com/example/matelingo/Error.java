@@ -23,8 +23,8 @@ public class Error extends AppCompatActivity {
 
         volverPrincipal.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(Error.this,Principal.class);
-                setContentView(R.layout.activity_principal);
+                Intent intent = new Intent(Error.this,MainActivity.class);
+                setContentView(R.layout.activity_main);
                 startActivity(intent);
                 finish();
             }
